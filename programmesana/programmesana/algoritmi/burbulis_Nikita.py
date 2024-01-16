@@ -19,17 +19,18 @@ def sakartot():
     elif saraksta_garums > 10:
         print('Saraksta izmēram ir jābūt mazākam par 10')
         exit()
-    saraksts = list(dati.keys())
+    
 
     for i in range(saraksta_garums):
         vards = input(f'\nIevadiet {i+1} studenta vārdu: ')
         rezultats = input(f'\nIevadiet {i+1} studenta rezultātu rezultātu: ')
         dati['vards'].append(vards)
         dati['rezultats'].append(rezultats)
-
+    saraksts = list(dati.keys())
+    
     burbulis(saraksts) #tiek sakārtots saraksts
 
-    print('Sakārtots saraksts:')
+    print('Sakārtots saraksts:\n')
     for a in range(0,saraksta_garums):
         print('Studenta vārds:',dati[saraksts[a]])
         print('Studenta rezultāts:',saraksts[a],'\n')
