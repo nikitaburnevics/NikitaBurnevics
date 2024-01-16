@@ -1,0 +1,17 @@
+import math
+import random
+print('run:')
+print('                 Matematisko funkciju lietosana')
+print('-------------------------------------------------------------------')
+print('Ievadiet veselu skaitli a:')
+a = float(input())
+print('Ievadiet realu skaitli b:')
+b = float(input())
+print('Skaitļa ',a,'absolūtā vērtība ir',abs(a))
+print('Skaitļa',b,'noapaļota vērtība ir',round(b))
+print('skaitlis',a,'pakapē 2 ir',math.pow(a,2))
+print('skaitļa',b,'kvadrātsakne ir', math.sqrt(b))
+print('Pirmais gadījuma skaitlis ir',random.random)
+print('Pirmais gadījuma skaitlis ir',random.random)
+print('Gadījuma skaitlis intervālā no 10 līdz 11 ir',random.randint(10,11))
+print('PI vērība ir:', math.pi)
