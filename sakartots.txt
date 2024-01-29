@@ -1,0 +1,1 @@
+[('Dace', 11), ('Kaspars', 15), ('Jēkabs', 18), ('Jānis', 19), ('Jana', 21), ('Roberts', 25), ('Gatis', 27), ('Inta', 32), ('Rūta', 47)]
