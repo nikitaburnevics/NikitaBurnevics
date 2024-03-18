@@ -1,0 +1,7 @@
+['test1', 1.0, 'pamatēdiens']
+['test2', 2.0, 'pamatēdiens']
+['amogaw', 1.0, 'deserts', 'a,b,c']
+['tete', 123.0, 'deserts', 'a,b,d']
+['awfn', 3.0, 'pamatēdiens']
+['awd', 123.0, 'deserts', 'a,,cs,']
+['awd', 123.0, 'deserts', 'a,s,d']
